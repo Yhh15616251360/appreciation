@@ -1,6 +1,6 @@
 <template>
 	<div class="backPic">
-		<img src="../assets/CEC-greatwall原色.png" class="logo" />
+		<img src="../assets/CEC-greatwall.png" class="logo" />
 		<p class="first_text logo_name">PK生态服务平台</p>
 		<a class="first_text" style="width: 28px;left: 676px;">首页</a>
 		<a class="first_text" style="width: 42px;left: 744px;">云计算</a>
@@ -10,7 +10,7 @@
 		<a class="first_text" style="width: 56px;left: 1058px;">企业联盟</a>
 		<a class="first_text" style="width: 56px;left: 1154px;">关于我们</a>
 		<div class="small_picture">
-			<img src="../assets/位图复制2.png" style="max-width: 100%;max-height: 100;"/>
+			<img src="../assets/head_picture.png" style="max-width: 100%;max-height: 100;"/>
 		</div>
 		<Dropdown placement="bottom-start" class="arrow_down">
 			<a href="javascript:void(0)">
@@ -24,10 +24,10 @@
 				<Icon type="ios-arrow-down"></Icon>
 			</a>
 		</Dropdown>
-		<img src="../assets/位图复制2.png" class="big_picture"/>
+		<img src="../assets/head_picture.png" class="big_picture"/>
 		<p class="name">{{name}}</p>
 		<div class="sex_icon">
-			<img src="../assets/女生.png" />
+			<img src="../assets/female.png" />
 		</div>
 		<p class="first_text person">{{job}} | {{city}}</p>
 		<p class="number" style="left: 835px;width: 44px;">326</p>
@@ -55,7 +55,7 @@
 	.backPic {
 		width: 1920px;
 		height: 330px;
-		background: url(../assets/背景.png);
+		background: url(../assets/top-back.png);
 		position: absolute;
 		left: 0px;
 		top: 0px;

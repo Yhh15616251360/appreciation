@@ -45,7 +45,7 @@
 
 <style>
 	.resume{
-		background: url(../assets/关注.png);
+		background: url(../assets/personal_back.png);
 		position: absolute;
 		left: 360px;
 		top: 23px;
